@@ -136,6 +136,7 @@
     <orderEntry type="library" name="reactive-streams-1.0.1" level="project" />
     <orderEntry type="library" name="support-annotations-26.0.2" level="project" />
     <orderEntry type="library" name="support-v4-26.0.2" level="project" />
+    <orderEntry type="library" name="circleimageview-2.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="kxml2-2.3.0" level="project" />
     <orderEntry type="library" name="appcompat-v7-26.0.2" level="project" />
     <orderEntry type="library" scope="TEST" name="javawriter-2.1.1" level="project" />

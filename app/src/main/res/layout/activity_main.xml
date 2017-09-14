@@ -2,8 +2,11 @@
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepager_drawerLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
 
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -29,21 +32,12 @@
                     android:layout_height="?attr/actionBarSize"
                     android:layout_alignParentTop="true"
                     android:background="@color/lightseagreen"
+                    android:navigationIcon="@mipmap/menu"
                     android:title="@string/app_name"
-                    android:titleTextColor="@color/white"
-                    app:layout_collapseMode="pin" />
-
-
+                    app:layout_collapseMode="pin"
+                    app:titleTextColor="@color/white" />
             </android.support.design.widget.CollapsingToolbarLayout>
         </android.support.design.widget.AppBarLayout>
-
-
-        <!--<android.support.v4.widget.NestedScrollView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_below="@id/homepager_appbalayout"-->
-        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,9 +54,15 @@
                 android:id="@+id/homepager_vp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
-
-            />
         </LinearLayout>
-        <!--</android.support.v4.widget.NestedScrollView>-->
+
     </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nv"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/menu_homepager_header"
+        app:menu="@menu/homepager_menu" />
 </android.support.v4.widget.DrawerLayout>

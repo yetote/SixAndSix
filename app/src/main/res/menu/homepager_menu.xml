@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/mine"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/homepager_menu_collection"
+            android:icon="@mipmap/collection"
+            android:title="@string/collection" />
+        <item
+            android:id="@+id/homepager_menu_love"
+            android:icon="@mipmap/heart"
+            android:title="@string/love" />
+        <item
+            android:id="@+id/homepager_menu_history"
+            android:icon="@mipmap/history"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/homepager_menu_news"
+            android:icon="@mipmap/message"
+            android:title="@string/news" />
+    </group>
+    <group
+        android:id="@+id/settings"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/homepager_menu_setting"
+            android:icon="@mipmap/setting"
+            android:title="@string/setting" />
+        <item
+            android:id="@+id/homepager_menu_clearCache"
+            android:icon="@mipmap/clear"
+            android:title="@string/clearCache" />
+    </group>
+</menu>
