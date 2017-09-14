@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\9.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6dd8c4660508a2482e1d1e312fa9396466ee398a">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\15.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c25bfd7a4abf5b64dbf91bb443842f1030c397ac">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\10.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="09f0466a13a716fd9c8f4629792edf77f529d7e4">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b6dafb771a6b4cacd99812f8077f450ec612c61d">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\18.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fb3ce64f64995695e980cc8fe1a6d26729c42eae">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\7.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0e83d7d9dc2c91c98258b660e19e685ed04dfc2f">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\8.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="dbc9902043ee7a78ed23ed43a78676c69b16d974">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\23.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ebbd77ea5e52e349583caea21df4e12372bda650">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="556a780450c1ccbb8f4dd4f328753931aa34c7ed">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\6.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="478adc633dcbf497dee89512ff18e6290e0d89a3">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7f7a79d57f884434891475d770d23fe6353eb7e4">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\14.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cc3138ca0114d26a995a48627b0060708c11a0bb">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\16.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="966d603ae519400e57d55de518ac2ccfdb2b5e5d">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\3.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a4f208c91ba53724460173de3f3e8eabf328d02f">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\11.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e70bb91d0f2a6a210603265f464de009433b2818">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\24.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4be92c1881573b3eea4ddc7ae0dfca946bb7dcc2">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\13.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ec2ec182197035c750a1a6df0407c297e5a2acd1">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\22.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d1e899e9c1604619ec5fc9533fd403d1c87ad037">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\4.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="03d2a4b4d0b7f575b89f6008c37205117017a522">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\19.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c53188dd915e42380bc9ffe29d8259621a075808">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\21.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6e3713e05f883f2a9deefca03db03aa327eea01d">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\12.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a478769b7652e2f3847c5a21b58aca69f7499454">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\20.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="58e85cf5eb9d7d1433cb33fe664b74a53570fd7d">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\17.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="07e6ea8f693c80bc6ca582b616a272e655fb5008">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\desugar\release\5.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.0"
+        sha1="aef6476a079ea9813c01170f2f996369deced73f">
+        <dex dex="E:\AndroidStudioWorkSpace\SixAndSix\SixAndSix\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+
+</items>
