@@ -6,19 +6,19 @@
         <item
             android:id="@+id/homepager_menu_collection"
             android:icon="@mipmap/collection"
-            android:title="@string/collection" />
+            android:title="@string/my_collection" />
         <item
             android:id="@+id/homepager_menu_love"
             android:icon="@mipmap/heart"
-            android:title="@string/love" />
+            android:title="@string/my_love" />
         <item
             android:id="@+id/homepager_menu_history"
             android:icon="@mipmap/history"
-            android:title="@string/history" />
+            android:title="@string/my_history" />
         <item
             android:id="@+id/homepager_menu_news"
             android:icon="@mipmap/message"
-            android:title="@string/news" />
+            android:title="@string/my_news" />
     </group>
     <group
         android:id="@+id/settings"

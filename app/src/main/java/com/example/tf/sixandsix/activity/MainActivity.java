@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     private NavigationView nv;
     private DrawerLayout drawerLayout;
     private static final String TAG = "MainActivity";
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -113,7 +114,6 @@ public class MainActivity extends AppCompatActivity {
         fragmentList.add(new PlayFragment());
         fragmentList.add(new LaughFragment());
         adapter = new HomePagerViewPagerAdapter(getFragmentManager(), fragmentList, this);
-
         //viewpager
 
         viewPager.setAdapter(adapter);
@@ -128,13 +128,11 @@ public class MainActivity extends AppCompatActivity {
         }
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.lightseagreen));
-        tabLayout.setTabTextColors(ContextCompat.getColor(this, R.color.white), ContextCompat.getColor(this, R.color.red));
-        tabLayout.setSelectedTabIndicatorColor(ContextCompat.getColor(this, R.color.red));
+        tabLayout.setTabTextColors(ContextCompat.getColor(this, R.color.half_white), ContextCompat.getColor(this, R.color.white));
+        tabLayout.setSelectedTabIndicatorColor(ContextCompat.getColor(this, R.color.white));
         tabLayout.setupWithViewPager(viewPager);
 
-        toolbar.setNavigationOnClickListener(view -> {
-            drawerLayout.openDrawer(Gravity.START);
-        });
+        toolbar.setNavigationOnClickListener(view -> drawerLayout.openDrawer(Gravity.START));
         toolbar.setTitleTextColor(ContextCompat.getColor(this, R.color.white));
     }
 

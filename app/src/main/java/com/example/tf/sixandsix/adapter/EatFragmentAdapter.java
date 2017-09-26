@@ -37,8 +37,64 @@ public class EatFragmentAdapter extends RecyclerView.Adapter {
     }
 
     private class MyViewHolder extends RecyclerView.ViewHolder {
-        private TextView name, content, agree, discuss, time;
+        private TextView name, content, agree, discuss, time, title;
         private ImageView iv;
+
+        public TextView getName() {
+            return name;
+        }
+
+        public void setName(TextView name) {
+            this.name = name;
+        }
+
+        public TextView getContent() {
+            return content;
+        }
+
+        public void setContent(TextView content) {
+            this.content = content;
+        }
+
+        public TextView getAgree() {
+            return agree;
+        }
+
+        public void setAgree(TextView agree) {
+            this.agree = agree;
+        }
+
+        public TextView getDiscuss() {
+            return discuss;
+        }
+
+        public void setDiscuss(TextView discuss) {
+            this.discuss = discuss;
+        }
+
+        public TextView getTime() {
+            return time;
+        }
+
+        public void setTime(TextView time) {
+            this.time = time;
+        }
+
+        public TextView getTitle() {
+            return title;
+        }
+
+        public void setTitle(TextView title) {
+            this.title = title;
+        }
+
+        public ImageView getIv() {
+            return iv;
+        }
+
+        public void setIv(ImageView iv) {
+            this.iv = iv;
+        }
 
         public MyViewHolder(View itemView) {
             super(itemView);
@@ -48,6 +104,7 @@ public class EatFragmentAdapter extends RecyclerView.Adapter {
             discuss = itemView.findViewById(R.id.item_eat_fragment_discuss);
             time = itemView.findViewById(R.id.item_eat_fragment_time);
             iv = itemView.findViewById(R.id.item_eat_fragment_iv);
+            title = itemView.findViewById(R.id.item_eat_fragment_title);
         }
     }
 
@@ -63,13 +120,14 @@ public class EatFragmentAdapter extends RecyclerView.Adapter {
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         MyViewHolder vh = (MyViewHolder) holder;
-        vh.name.setText(list.get(position).getName());
-        vh.content.setText(list.get(position).getContent());
-        vh.agree.setText("同意" + list.get(position).getAgree() + " · ");
-        vh.discuss.setText("评论" + list.get(position).getDiscuss() + " · ");
-        vh.time.setText("时间" + list.get(position).getTime() + "  ");
-        vh.itemView.setTag(position);
-        Glide.with(context).load(list.get(position).getImage()).into(vh.iv);
+        vh.getName().setText(list.get(position).getName());
+        vh.getContent().setText(list.get(position).getContent());
+        vh.getAgree().setText("同意" + list.get(position).getAgree() + " · ");
+        vh.getDiscuss().setText("评论" + list.get(position).getDiscuss() + " · ");
+        vh.getTime().setText("时间" + list.get(position).getTime() + "  ");
+        vh.getTitle().setText(list.get(position).getTitle());
+        vh.itemView.setTag(list.get(position).getId());
+        Glide.with(context).load(list.get(position).getImage()).into(vh.getIv());
     }
 
     @Override

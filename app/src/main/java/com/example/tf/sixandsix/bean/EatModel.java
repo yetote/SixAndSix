@@ -11,6 +11,24 @@ public class EatModel {
     private int agree;
     private int discuss;
     private String time;
+    private String title;
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
     public String getImage() {
         return image;
@@ -60,12 +78,14 @@ public class EatModel {
         this.time = time;
     }
 
-    public EatModel(String image, String name, String content, int agree, int discuss, String time) {
+    public EatModel(int id, String image, String name, String content, int agree, int discuss, String time, String title) {
         this.image = image;
         this.name = name;
         this.content = content;
         this.agree = agree;
         this.discuss = discuss;
         this.time = time;
+        this.title = title;
+        this.id = id;
     }
 }
