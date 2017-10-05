@@ -11,14 +11,23 @@ import android.widget.TextView;
 import com.example.tf.sixandsix.R;
 
 /**
- * Created by admin on 2017/9/8.
+ * DrinkFragment 饮品fragment
+ *
+ * @author Swg
+ * @time 2017/9/28 11:02
  */
-
 public class DrinkFragment extends Fragment {
+    private int a=0;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_drink, null, false);
+
+        //异常测试
+
+        System.out.println(100/a);
+
         return v;
     }
 }

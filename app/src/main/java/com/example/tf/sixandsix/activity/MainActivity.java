@@ -1,4 +1,10 @@
 package com.example.tf.sixandsix.activity;
+/**
+ * MainActivity 主页面
+ *
+ * @author Swg
+ * @time 2017/9/28 11:00
+ */
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -46,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private NavigationView nv;
     private DrawerLayout drawerLayout;
     private static final String TAG = "MainActivity";
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -115,7 +121,6 @@ public class MainActivity extends AppCompatActivity {
         fragmentList.add(new LaughFragment());
         adapter = new HomePagerViewPagerAdapter(getFragmentManager(), fragmentList, this);
         //viewpager
-
         viewPager.setAdapter(adapter);
 
     }

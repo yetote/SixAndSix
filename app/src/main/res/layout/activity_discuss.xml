@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:context="com.example.tf.sixandsix.activity.DiscussActivity">
 
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/discuss_et"
-        android:fitsSystemWindows="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:fitsSystemWindows="true">
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
 
             <Toolbar
                 android:id="@+id/discuss_toolbar"
@@ -45,7 +45,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-
         android:layout_alignParentStart="true"
         android:layout_toStartOf="@+id/discuss_btn"
         android:hint="@string/discuss_default_text"

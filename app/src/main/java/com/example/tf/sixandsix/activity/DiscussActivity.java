@@ -1,12 +1,15 @@
 package com.example.tf.sixandsix.activity;
-
+/**
+*评论Activity
+*@author Swg
+*@time 2017/9/28 10:42
+*/
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.View;
-import android.view.Window;
+import android.util.Log;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,7 +18,6 @@ import android.widget.Toolbar;
 
 import com.example.tf.sixandsix.R;
 import com.example.tf.sixandsix.adapter.DiscussAdapter;
-import com.example.tf.sixandsix.adapter.IAdapterOnClick;
 import com.example.tf.sixandsix.bean.DiscussModel;
 
 import java.util.ArrayList;
@@ -40,7 +42,6 @@ public class DiscussActivity extends AppCompatActivity {
 
         setActionBar(toolbar);
         getActionBar().setDisplayHomeAsUpEnabled(true);
-
         receiveData();
 
         onClick();
@@ -82,6 +83,7 @@ public class DiscussActivity extends AppCompatActivity {
         return et.getText() == null;
     }
 
+    
     private void initViews() {
         toolbar = findViewById(R.id.discuss_toolbar);
         rv = findViewById(R.id.discuss_rv);

@@ -1,5 +1,9 @@
 package com.example.tf.sixandsix.activity;
-
+/**
+*EatInformationActivity 美食详细信息界面
+*@author Swg
+*@time 2017/9/28 10:59
+*/
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -30,10 +34,13 @@ public class EatInformationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         getWindow().setEnterTransition(new Fade().setDuration(1000));
         getWindow().setExitTransition(new Fade().setDuration(1000));
+
         setContentView(R.layout.activity_eat_information);
+
         initViews();
 
         setActionBar(toolbar);

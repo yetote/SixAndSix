@@ -10,8 +10,10 @@ import android.view.ViewGroup;
 import com.example.tf.sixandsix.R;
 
 /**
- * Created by admin on 2017/9/8.
- */
+*PlayFragment 游玩fragment
+*@author Swg
+*@time 2017/9/28 11:03
+*/
 
 public class PlayFragment extends Fragment {
     @Nullable

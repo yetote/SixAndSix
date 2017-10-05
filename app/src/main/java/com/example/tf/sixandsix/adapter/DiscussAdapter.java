@@ -18,8 +18,10 @@ import com.example.tf.sixandsix.bean.DiscussModel;
 import java.util.List;
 
 /**
- * Created by Swg on 2017/9/25.
- */
+*DiscussAdapter 评论Adapter
+*@author Swg
+*@time 2017/9/28 11:04
+*/
 
 public class DiscussAdapter extends RecyclerView.Adapter {
     private List<DiscussModel> list;

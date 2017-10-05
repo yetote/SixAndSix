@@ -23,8 +23,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by admin on 2017/9/8.
- */
+*EatFragment 美食fragment
+*@author Swg
+*@time 2017/9/28 11:02
+*/
 
 public class EatFragment extends Fragment {
     private RecyclerView rv;

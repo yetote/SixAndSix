@@ -12,8 +12,10 @@ import com.example.tf.sixandsix.R;
 import com.example.tf.sixandsix.bean.EatModel;
 
 /**
- * Created by admin on 2017/9/8.
- */
+*LaughFragment 休闲fragment
+*@author Swg
+*@time 2017/9/28 11:03
+*/
 
 public class LaughFragment extends Fragment {
     private TextView tv;

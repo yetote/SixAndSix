@@ -8,8 +8,10 @@ import android.support.v13.app.FragmentPagerAdapter;
 import java.util.List;
 
 /**
- * Created by admin on 2017/9/8.
- */
+*HomePagerViewPagerAdapter 首页加载fragment的viewpager的Adapter
+*@author Swg
+*@time 2017/9/28 11:01
+*/
 
 public class HomePagerViewPagerAdapter extends FragmentPagerAdapter {
     private List<Fragment> list;

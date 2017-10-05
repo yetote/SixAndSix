@@ -1,5 +1,9 @@
 package com.example.tf.sixandsix.activity;
-
+/**
+*SplashActivity 欢迎页
+*@author Swg
+*@time 2017/9/28 11:03
+*/
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ArgbEvaluator;

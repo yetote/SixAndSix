@@ -15,8 +15,10 @@ import com.example.tf.sixandsix.bean.EatModel;
 import java.util.List;
 
 /**
- * Created by admin on 2017/9/8.
- */
+*EatFragmentAdapter 美食Adapter
+*@author Swg
+*@time 2017/9/28 11:01
+*/
 
 public class EatFragmentAdapter extends RecyclerView.Adapter {
     private List<EatModel> list;

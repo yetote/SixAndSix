@@ -1,8 +1,10 @@
 package com.example.tf.sixandsix.bean;
 
 /**
- * Created by admin on 2017/9/8.
- */
+*EatModel 美食bean
+*@author Swg
+*@time 2017/9/28 11:02
+*/
 
 public class EatModel {
     private String image;

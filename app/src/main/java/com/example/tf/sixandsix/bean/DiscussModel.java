@@ -1,8 +1,10 @@
 package com.example.tf.sixandsix.bean;
 
 /**
- * Created by Swg on 2017/9/25.
- */
+*DiscussModel 评论bean
+*@author Swg
+*@time 2017/9/28 11:02
+*/
 
 public class DiscussModel {
     private String username;
